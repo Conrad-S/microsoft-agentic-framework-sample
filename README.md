@@ -19,7 +19,7 @@ The framework has simplified syntax, with the ability to set multiple properties
   var response = await agent.RunAsync("Tell me a joke about a pirate.");
 ```
 
-This is a C# console program with the following functions:
+This sample is a C# console program with the following functions:
 
 ```
 await Agent_AskQuestion();                  //Ask a question and receive a response.
