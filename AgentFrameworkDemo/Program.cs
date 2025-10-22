@@ -18,13 +18,13 @@ class Program
 
         try
         {
+            //TODO!: Uncomment any of the following methods to try the different scenarios.
+            
             // ask the agent a question.
             await Agent_AskQuestion();
 
-            //TODO!: Uncomment any of the following methods to try the different scenarios.
-
             // ask the agent a question and get a streaming response (plain text).
-            await Agent_AskQuestionStreamResponse();
+            //await Agent_AskQuestionStreamResponse();
 
             // ask the agent a question and pass in content such as a URL.
             //await Agent_AskWithChatMessage();
