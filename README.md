@@ -1,6 +1,6 @@
 **Microsoft Agent Framework Sample**
 
-This sample shows some of the features of the new Microsoft Agent Framework.
+This sample shows some of the features of the new Microsoft Agent Framework, released in preview in October 1, 2025.
 One of the features of the new framework is the ability to apply multiple parameters to one or two function calls total to call an agent. For example:
 
 ```
