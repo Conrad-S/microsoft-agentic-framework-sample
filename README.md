@@ -1,7 +1,13 @@
 **Microsoft Agent Framework Sample**
 
-This sample shows some of the features of the new Microsoft Agent Framework, released in preview in October 1, 2025.
-One of the features of the new framework is the ability to apply multiple parameters to one or two function calls total to call an agent. For example:
+This sample shows some of the features of the new Microsoft Agent Framework, released in preview in October 1, 2025.  
+
+Microsoft Agent Framework references:
+ - https://devblogs.microsoft.com/foundry/introducing-microsoft-agent-framework-the-open-source-engine-for-agentic-ai-apps/
+ - https://azure.microsoft.com/en-us/blog/introducing-microsoft-agent-framework/
+
+**Notes on the framework**
+The framework has simplified syntax, with the ability to set multiple properties and then call two functions, one to create the agent, and the other to call the agent. For example:
 
 ```
   // create the agent
