@@ -24,11 +24,11 @@ This sample is a C# console program with the following functions:
 ```
 await Agent_AskQuestion();                  //Ask a question and receive a response.
   
-await Agent_AskQuestionStreamResponse();    //Ask the agent a question and get a streaming response.
+await Agent_AskQuestionStreamResponse();    //Ask a question and get a streaming response.
 
-await Agent_AskWithChatMessage();           //Ask the agent a question and pass in content such as a URL. Ask the agent questions about the contents of the URL.
+await Agent_AskWithChatMessage();           //Ask a question and pass in content such as a URL. Ask the agent questions about the contents of the URL.
   
-await Agent_AskWithImage();                 //Ask the agent a question and pass in an image URL. Ask the agent a question about the image.
+await Agent_AskWithImage();                 //Ask a question and pass in an image URL. Ask the agent a question about the image.
 
-await Agent_MultiTurnConversation();        //Multi-turn conversation with the agent (chat history is preserved).
+await Agent_MultiTurnConversation();        //Multi-turn conversation (chat history is preserved).
 ```
