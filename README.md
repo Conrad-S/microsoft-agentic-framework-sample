@@ -15,7 +15,7 @@ The framework has simplified syntax, with the ability to set multiple properties
       .GetChatClient("gpt-4.1")
       .CreateAIAgent(instructions: "You are good at telling jokes.");
   
-  // send the question and get the response.
+  // ask a question and get the response.
   var response = await agent.RunAsync("Tell me a joke about a pirate.");
 ```
 
